@@ -17,6 +17,10 @@ struct HomeView: View {
             Image(information.image)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
+                .cornerRadius(10)
+                .padding(40)
+            Text(information.name)
+                .font(.title)
                 
         }
     }

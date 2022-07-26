@@ -1,10 +1,3 @@
-//
-//  StoryView.swift
-//  myapp
-//
-//  Created by 조준영 on 2022/07/24.
-//
-
 import SwiftUI
 
 struct StoryView: View {
@@ -22,7 +15,7 @@ struct StoryView: View {
                 
             }
         }
-        padding([.top, .bottom], 50)
+        .padding([.top, .bottom], 50)
     }
 }
 

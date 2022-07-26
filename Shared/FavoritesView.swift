@@ -10,7 +10,23 @@ import SwiftUI
 struct FavoritesView: View {
     var body: some View {
         VStack {
-            Text("FavoritesView")
+            Text("Favorites")
+              .font(.largeTitle)
+              .fontWeight(.bold)
+              .padding(.bottom, 40)
+            Text("Hobbies")
+                .font(.title2)
+            
+            HStack {
+                ForEach(information.hobbies,    id: \.self) {
+                    hobby in
+                    Image(systemName: hobby)
+                        .resizable()
+                        .frame(maxWidth: 80,
+                        maxHeight: 80)
+                }
+            }
+            
         }
     }
 }

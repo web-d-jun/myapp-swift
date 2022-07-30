@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0804770928957CF000CAB46A /* MyStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0804770828957CF000CAB46A /* MyStory.swift */; };
+		0804770A28957CF000CAB46A /* MyStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0804770828957CF000CAB46A /* MyStory.swift */; };
 		080CBA0B288D49F400053D06 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080CBA0A288D49F400053D06 /* Tests_iOS.swift */; };
 		080CBA0D288D49F400053D06 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080CBA0C288D49F400053D06 /* Tests_iOSLaunchTests.swift */; };
 		080CBA17288D49F400053D06 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080CBA16288D49F400053D06 /* Tests_macOS.swift */; };
@@ -47,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0804770828957CF000CAB46A /* MyStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStory.swift; sourceTree = "<group>"; };
 		080CB9F2288D49F300053D06 /* myappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myappApp.swift; sourceTree = "<group>"; };
 		080CB9F3288D49F300053D06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		080CB9F4288D49F400053D06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -120,6 +123,7 @@
 				08FD443A288EDEA000E67D76 /* FavoritesView.swift */,
 				08FD443D288EDF0600E67D76 /* FunFactsView.swift */,
 				08FD4440288EE0DF00E67D76 /* Data.swift */,
+				0804770828957CF000CAB46A /* MyStory.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -326,6 +330,7 @@
 				080CBA1C288D49F400053D06 /* ContentView.swift in Sources */,
 				08FD4438288EDD6B00E67D76 /* StoryView.swift in Sources */,
 				080CBA1A288D49F400053D06 /* myappApp.swift in Sources */,
+				0804770928957CF000CAB46A /* MyStory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +345,7 @@
 				080CBA1D288D49F400053D06 /* ContentView.swift in Sources */,
 				08FD4439288EDD6B00E67D76 /* StoryView.swift in Sources */,
 				080CBA1B288D49F400053D06 /* myappApp.swift in Sources */,
+				0804770A28957CF000CAB46A /* MyStory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

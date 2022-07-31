@@ -2,9 +2,9 @@ import SwiftUI
 
 struct StoryView: View {
     var body: some View {
-//        NavigationView {
-//            Text("dsds")
-//        }
+        NavigationView {
+            StoryPageView(story: story, pageIndex: 0)
+        }
 //        VStack {
 //            Text("My Story")
 //                .font(.largeTitle)

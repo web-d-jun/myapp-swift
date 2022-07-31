@@ -19,6 +19,14 @@
 		080CBA1D288D49F400053D06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080CB9F3288D49F300053D06 /* ContentView.swift */; };
 		080CBA1E288D49F400053D06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080CB9F4288D49F400053D06 /* Assets.xcassets */; };
 		080CBA1F288D49F400053D06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080CB9F4288D49F400053D06 /* Assets.xcassets */; };
+		083F75C12896AFE70051F2EF /* StoryPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083F75C02896AFE70051F2EF /* StoryPageView.swift */; };
+		083F75C22896AFE70051F2EF /* StoryPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083F75C02896AFE70051F2EF /* StoryPageView.swift */; };
+		083F75C42896B9770051F2EF /* DatePlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083F75C32896B9770051F2EF /* DatePlannerApp.swift */; };
+		083F75C52896B9770051F2EF /* DatePlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083F75C32896B9770051F2EF /* DatePlannerApp.swift */; };
+		083F75C72896BBD60051F2EF /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083F75C62896BBD60051F2EF /* Event.swift */; };
+		083F75C82896BBD60051F2EF /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083F75C62896BBD60051F2EF /* Event.swift */; };
+		083F75CA2896BDA20051F2EF /* EventTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083F75C92896BDA20051F2EF /* EventTask.swift */; };
+		083F75CB2896BDA20051F2EF /* EventTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083F75C92896BDA20051F2EF /* EventTask.swift */; };
 		084D013D2895824A008C1E90 /* StoryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084D013C2895824A008C1E90 /* StoryModels.swift */; };
 		084D013E2895824A008C1E90 /* StoryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084D013C2895824A008C1E90 /* StoryModels.swift */; };
 		08B8C064288D94E7006412E3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B8C063288D94E7006412E3 /* HomeView.swift */; };
@@ -64,6 +72,10 @@
 		080CBA12288D49F400053D06 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		080CBA16288D49F400053D06 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		080CBA18288D49F400053D06 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		083F75C02896AFE70051F2EF /* StoryPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPageView.swift; sourceTree = "<group>"; };
+		083F75C32896B9770051F2EF /* DatePlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePlannerApp.swift; sourceTree = "<group>"; };
+		083F75C62896BBD60051F2EF /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		083F75C92896BDA20051F2EF /* EventTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTask.swift; sourceTree = "<group>"; };
 		084D013C2895824A008C1E90 /* StoryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryModels.swift; sourceTree = "<group>"; };
 		08B8C063288D94E7006412E3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		08FD4437288EDD6B00E67D76 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
@@ -128,6 +140,10 @@
 				08FD4440288EE0DF00E67D76 /* Data.swift */,
 				0804770828957CF000CAB46A /* MyStory.swift */,
 				084D013C2895824A008C1E90 /* StoryModels.swift */,
+				083F75C02896AFE70051F2EF /* StoryPageView.swift */,
+				083F75C32896B9770051F2EF /* DatePlannerApp.swift */,
+				083F75C62896BBD60051F2EF /* Event.swift */,
+				083F75C92896BDA20051F2EF /* EventTask.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -328,7 +344,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				084D013D2895824A008C1E90 /* StoryModels.swift in Sources */,
+				083F75C12896AFE70051F2EF /* StoryPageView.swift in Sources */,
 				08FD4441288EE0DF00E67D76 /* Data.swift in Sources */,
+				083F75C42896B9770051F2EF /* DatePlannerApp.swift in Sources */,
+				083F75CA2896BDA20051F2EF /* EventTask.swift in Sources */,
+				083F75C72896BBD60051F2EF /* Event.swift in Sources */,
 				08FD443B288EDEA000E67D76 /* FavoritesView.swift in Sources */,
 				08B8C064288D94E7006412E3 /* HomeView.swift in Sources */,
 				08FD443E288EDF0600E67D76 /* FunFactsView.swift in Sources */,
@@ -344,7 +364,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				084D013E2895824A008C1E90 /* StoryModels.swift in Sources */,
+				083F75C22896AFE70051F2EF /* StoryPageView.swift in Sources */,
 				08FD4442288EE0DF00E67D76 /* Data.swift in Sources */,
+				083F75C52896B9770051F2EF /* DatePlannerApp.swift in Sources */,
+				083F75CB2896BDA20051F2EF /* EventTask.swift in Sources */,
+				083F75C82896BBD60051F2EF /* Event.swift in Sources */,
 				08FD443C288EDEA000E67D76 /* FavoritesView.swift in Sources */,
 				08B8C065288D94E7006412E3 /* HomeView.swift in Sources */,
 				08FD443F288EDF0600E67D76 /* FunFactsView.swift in Sources */,

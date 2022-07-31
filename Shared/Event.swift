@@ -9,8 +9,8 @@ import SwiftUI
 
 struct Event: Identifiable, Hashable {
     var id = UUID()
-    var symbol: String = EventSymbols.randomName()
-    var color: Color = ColorOptions.random()
+//    var symbol: String = EventSymbols.randomName()
+//    var color: Color = ColorOptions.random()
 
     var title = ""
     var tasks = [EventTask(text: "")]

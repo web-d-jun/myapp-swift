@@ -6,11 +6,12 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct Event: Identifiable, Hashable {
     var id = UUID()
-//    var symbol: String = EventSymbols.randomName()
-//    var color: Color = ColorOptions.random()
+    var symbol: String = ""
+    var color: Color = .white
 
     var title = ""
     var tasks = [EventTask(text: "")]

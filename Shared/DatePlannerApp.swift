@@ -14,7 +14,7 @@ struct DatePlannerApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
-//                EventList()
+                EventList()
                 Text("Select an Event")
                     .foregroundStyle(.secondary)
             }

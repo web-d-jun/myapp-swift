@@ -10,24 +10,14 @@ import SwiftUI
 class EventData: ObservableObject {
 
     @Published var events: [Event] = [
-        Event(symbol: "gift.fill",
-              color: .red,
+        Event(color: .red,
               title: "Maya's Birthday",
-              tasks: [
-                EventTask(text: "Guava kombucha"),
-                EventTask(text: "Paper cups and plates"),
-                EventTask(text: "Cheese plate"),
-                EventTask(text: "Party poppers"),
-              ],
-              date: Date.roundedHoursFromNow(60 * 60 * 24 * 365)),
-        Event(symbol: "theatermasks.fill",
-              color: .yellow,
-              title: "Pagliacci",
-              tasks: [EventTask(text: "Buy new tux"),
-                      EventTask(text: "Get tickets"),
-                      EventTask(text: "Pick up Carmen at the airport and bring her to the show"),
+              tasks: [EventTask(text: "Guava kombucha"),
+                      EventTask(text: "Paper cups and plates"),
+                      EventTask(text: "Cheese plate"),
+                      EventTask(text: "Party poppers"),
                      ],
-              date: Date()),
+              date: Date.roundedHoursFromNow(60 * 60 * 24 * 30)),
     ]
 }
 
@@ -50,9 +40,12 @@ extension Date {
         }
         
     }
-    static func roundedHoursFromNow(hours: Double) -> Date {
-        _ = Date(timeIntervalSinceNow: hours)
-        
-        
+    static func roundedHoursFromNow(_ hours: Double) -> Date {
+        let exactDate = Date(timeIntervalSinceNow: hours)
+        print(exactDate)
+        guard let hourRange = Calendar.current.dateInterval(of: .hour, for: exactDate) else {
+            return exactDate
+        }
+        return hourRange.end
     }
 }
